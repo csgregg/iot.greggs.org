@@ -1,4 +1,4 @@
 ---
 deployment:
  tasks:
- - $HOME/bin/rsync -avu --exclude "dev" --delete public_html/ $HOME/public_html
+ - $HOME/bin/rsync -avu --progress --delete --exclude "dev" public_html/ $HOME/public_html
