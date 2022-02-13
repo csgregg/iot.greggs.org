@@ -1,7 +1,6 @@
 ---
 deployment:
  tasks:
- - export DEPLOYPATH=$HOME/public_html/app
+ - export DEPLOYPATH=$HOME/public_html
  - export SOURCEPATH=public_html/
- - mkdir -p $DEPLOYPATH
- - $HOME/bin/rsync -avu --delete --exclude "dev" $SOURCEPATH $DEPLOYPATH
+ - $HOME/bin/rsync -avu --delete --exclude "app/devices" $SOURCEPATH $DEPLOYPATH
