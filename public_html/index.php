@@ -18,7 +18,6 @@ if(isset($user) && $user->isLoggedIn()){
 				if($user->isLoggedIn()){?>
 					<a class="btn btn-primary" href="users/account.php" role="button"><?=lang("ACCT_HOME");?> &raquo;</a>
 				<?php }else{?>
-					Hello
 					<a class="btn btn-warning" href="users/login.php" role="button"><?=lang("SIGNIN_TEXT");?> &raquo;</a>
 					<a class="btn btn-info" href="users/join.php" role="button"><?=lang("SIGNUP_TEXT");?> &raquo;</a>
 				<?php }?>
