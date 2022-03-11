@@ -27,7 +27,7 @@ if(isset($user) && $user->isLoggedIn()){
 			<h4 align="center"><a href="https://userspice.com/getting-started/">https://userspice.com/getting-started/</a></h4>
 		</div>
 <?php  languageSwitcher();?>
-
+aa
 
 <!-- Place any per-page javascript here -->
 <?php require_once $abs_us_root . $us_url_root . 'users/includes/html_footer.php'; ?>

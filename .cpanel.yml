@@ -3,4 +3,4 @@ deployment:
  tasks:
  - export DEPLOYPATH=$HOME/public_html
  - export SOURCEPATH=public_html/
- - $HOME/bin/rsync -avu --delete --exclude={'app/devices','cgi-bin','users/init.php'} $SOURCEPATH $DEPLOYPATH    # Don't overwrite anything in the apps/devices folder - these come from other repos
+ - $HOME/bin/rsync -av --exclude={'app/devices'} $SOURCEPATH $DEPLOYPATH    # Don't overwrite anything in the apps/devices folder - these come from other repos
