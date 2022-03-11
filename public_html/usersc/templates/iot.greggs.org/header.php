@@ -15,7 +15,7 @@ require_once($abs_us_root.$us_url_root.'users/includes/template/header1_must_inc
 
 <?php
 if(file_exists($abs_us_root.$us_url_root.'usersc/templates/'.$settings->template.'.css')){?> <link href="<?=$us_url_root?>usersc/templates/<?=$settings->template?>.css" rel="stylesheet"> <?php } ?>
-<link rel="manifest" href="manifest.json">  
+<link rel="manifest" href="/manifest.json">  
 </head>
 <body>
 <?php require_once($abs_us_root.$us_url_root.'users/includes/template/header3_must_include.php'); ?>
