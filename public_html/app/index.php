@@ -8,4 +8,4 @@
 <?php
 echo "Hello";
 ?>
-<a href="devices/csg-8266-rota/">Rota</a>
+<a href="devices/csg-esp8266-rota/">Rota</a>
