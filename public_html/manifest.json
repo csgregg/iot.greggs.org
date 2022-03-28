@@ -1,0 +1,10 @@
+{  
+    "name": "Greggs IOT",  
+    "short_name": "GreggIOT",  
+    "description": "Gregg Family Devices",  
+    "start_url": "/app",  
+    "theme_color": "#111111",  
+    "background_color": "#DDDDDDD",  
+    "display": "fullscreen",  
+    "orientation": "portrait"  
+  } 
